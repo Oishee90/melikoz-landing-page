@@ -1,8 +1,23 @@
+
 {
-  "home": "Home",
-  "services": "Services",
-  "howItWorks": "How It Works",
+  "navbar": {
+  "home": "Inicio",
+  "services": "Servicios",
+  "howItWorks": "Cómo Funciona",
   "premium": "Premium",
-  "contact": "Contact",
-  "getStarted": "Get Started"
+  "contact": "Contacto",
+  "getStarted": "Empezar"
 }
+  ,
+    "banner": {
+    "title": "Ayuda de emergencia instantánea al alcance de tu mano",
+    "description": "Brindamos profesionales verificados las 24 horas para plomería, electricidad, limpieza, cuidado de mascotas y otras emergencias. Seguro, rápido y confiable.",
+    "button": "Descargar App",
+    "stats": {
+      "user": "Usuario",
+      "provider": "Proveedor",
+      "services": "Servicios"
+    }
+  }
+  
+  }

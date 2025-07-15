@@ -18,11 +18,11 @@ const Navbar = () => {
   const [lang, setLang] = useState(i18n.language || "en");
   const [showDropdown, setShowDropdown] = useState(false);
   const menuItems = [
-    { name: t("home"), id: "home" },
-    { name: t("services"), id: "Services" },
-    { name: t("howItWorks"), id: "How It Works" },
-    { name: t("premium"), id: "Premium" },
-    { name: t("contact"), id: "Contact" },
+    { name: t("navbar.home"), id: "home" },
+    { name: t("navbar.services"), id: "services" },
+    { name: t("navbar.howItWorks"), id: "howItWorks" },
+    { name: t("navbar.premium"), id: "premium" },
+    { name: t("navbar.contact"), id: "contact" },
   ];
 
   useEffect(() => {
