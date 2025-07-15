@@ -3,6 +3,8 @@ import Navbar from "./Navbar";
 import Banner from "./Banner";
 
 import Footer from "./Footer";
+import Services from "./Services";
+import MembershipPlans from "./MembershipPlans";
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
         <Navbar></Navbar>
       </div>
       <Banner></Banner>
+      <Services></Services>
+      <MembershipPlans></MembershipPlans>
 
       <Footer></Footer>
     </div>

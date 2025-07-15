@@ -1,12 +1,13 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import logo from "../../assets/logo.png";
 import { BsArrowUpRightSquare } from "react-icons/bs";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+
 import { CgArrowTopRightR } from "react-icons/cg";
 import { BsArrowRight } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
 import { FaGlobeAmericas } from "react-icons/fa"; // 🌐 icon
 import { FaChevronDown } from "react-icons/fa"; // ⏷ icon
+import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
@@ -17,13 +18,16 @@ const Navbar = () => {
 
   const [lang, setLang] = useState(i18n.language || "en");
   const [showDropdown, setShowDropdown] = useState(false);
-  const menuItems = [
-    { name: t("navbar.home"), id: "home" },
-    { name: t("navbar.services"), id: "services" },
-    { name: t("navbar.howItWorks"), id: "howItWorks" },
-    { name: t("navbar.premium"), id: "premium" },
-    { name: t("navbar.contact"), id: "contact" },
-  ];
+  const menuItems = useMemo(
+    () => [
+      { name: t("navbar.home"), id: "home" },
+      { name: t("navbar.services"), id: "services" },
+      { name: t("navbar.howItWorks"), id: "howItWorks" },
+      { name: t("navbar.premium"), id: "premium" },
+      { name: t("navbar.contact"), id: "contact" },
+    ],
+    [i18n.language]
+  ); // ✅ change here!
 
   useEffect(() => {
     const handleScrollEvent = () => {
@@ -150,7 +154,7 @@ const Navbar = () => {
 
           {/*  Right: Log In & Sign Up (Large Screen) */}
           <div className="items-center hidden gap-6 lg:flex">
-            <div ref={dropdownRef} className="relative flex items-center gap-2">
+            <div className="relative flex items-center gap-2">
               {/* 🌐 Language Icon */}
               <FaGlobeAmericas className="text-[#0097EE] text-xl" />
 
@@ -165,9 +169,13 @@ const Navbar = () => {
 
               {/* Dropdown Menu */}
               {showDropdown && (
-                <div className="absolute right-0 z-50 w-32 mt-2 text-black bg-white rounded-md shadow-lg top-full">
+                <div
+                  ref={dropdownRef}
+                  className="absolute right-0 z-50 w-32 mt-2 text-black bg-white rounded-md shadow-lg top-full"
+                >
                   <button
                     onClick={() => {
+                      console.log("Switching to English"); // 🔍 Debug log
                       setLang("en");
                       i18n.changeLanguage("en");
                       setShowDropdown(false);
@@ -178,8 +186,10 @@ const Navbar = () => {
                   >
                     English
                   </button>
+
                   <button
                     onClick={() => {
+                      console.log("Switching to Spanish"); // 🔍 Debug log
                       setLang("es");
                       i18n.changeLanguage("es");
                       setShowDropdown(false);
@@ -197,7 +207,7 @@ const Navbar = () => {
 
           {/*  Mobile Menu Button */}
           <div className="flex items-center gap-4 lg:hidden">
-            <div ref={dropdownRef} className="relative flex items-center gap-2">
+            <div className="relative flex items-center gap-2">
               {/* 🌐 Language Icon */}
               <FaGlobeAmericas className="text-[#0097EE] text-xl" />
 

@@ -1,22 +1,101 @@
 
 {
-  "navbar": {
-  "home": "Inicio",
-  "services": "Servicios",
-  "howItWorks": "Cómo Funciona",
-  "premium": "Premium",
-  "contact": "Contacto",
-  "getStarted": "Empezar"
-}
-  ,
-    "banner": {
-    "title": "Ayuda de emergencia instantánea al alcance de tu mano",
-    "description": "Brindamos profesionales verificados las 24 horas para plomería, electricidad, limpieza, cuidado de mascotas y otras emergencias. Seguro, rápido y confiable.",
-    "button": "Descargar App",
+   "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "howItWorks": "How It Works",
+    "premium": "Premium",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "banner": {
+    "title": "Instant emergency help at your fingertips",
+    "description": "We provide verified professionals 24/7 for plumbing, electrical work, cleaning, pet care, and other emergencies. Safe, fast, and reliable.",
+    "button": "Download App",
     "stats": {
-      "user": "Usuario",
-      "provider": "Proveedor",
-      "services": "Servicios"
+      "user": "User",
+      "provider": "Provider",
+      "services": "Services"
+    }
+  },
+   "servicesSection": {
+    "title": "Emergency Services We Offer",
+    "list": {
+      "plumbing": {
+        "title": "Plumbing",
+        "desc": "Pipe Repairs, Installations, Drains"
+      },
+      "electrical": {
+        "title": "Electrical",
+        "desc": "Wiring, fixtures, panel upgrades"
+      },
+      "carpentry": {
+        "title": "Carpentry",
+        "desc": "Furniture Making & Repairing, Flooring"
+      },
+      "petcare": {
+        "title": "Pet Care",
+        "desc": "Neutering, Deworming, Vaccination"
+      },
+      "cleaning": {
+        "title": "Cleaning",
+        "desc": "Home, office, Hotel specialized"
+      },
+      "pestcontrol": {
+        "title": "Pest Control",
+        "desc": "Insects, rodents, prevention"
+      },
+      "locksmith": {
+        "title": "Locksmith",
+        "desc": "Locks, keys, security systems"
+      },
+      "hvac": {
+        "title": "HVAC",
+        "desc": "Heating, cooling, ventilation"
+      }
+    }
+  },
+  "premiumTitle": "Flexible Memberships",
+  "premiumDescription": "Unlock more job requests, higher visibility, and priority support with our premium plans.",
+  "plans": {
+    "free": {
+      "name": "Free",
+      "price": "$ 0/month",
+      "features": [
+        "Basic Job Access",
+        "Standard Support"
+      ],
+      "btnText": "Select Free"
+    },
+    "silver": {
+      "name": "Silver",
+      "price": "$ 99/15 Days",
+      "features": [
+        "Job Boosting",
+        "Limited Priority Access",
+        "Basic Analytics"
+      ],
+      "btnText": "Select Silver"
+    },
+    "platinum": {
+      "name": "Platinum",
+      "price": "$ 299/30 Days",
+      "features": [
+        "Premium Support",
+        "Featured Listing",
+        "Dedicated Account Manager"
+      ],
+      "btnText": "Select Platinum"
+    },
+    "gold": {
+      "name": "Gold",
+      "price": "$ 499/1 Years",
+      "features": [
+        "Top Search Ranking",
+        "Unlimited Job Requests",
+        "Advanced Analytics"
+      ],
+      "btnText": "Select Gold"
     }
   }
   

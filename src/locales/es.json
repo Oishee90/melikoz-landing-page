@@ -1,23 +1,103 @@
-
 {
   "navbar": {
-  "home": "Inicio",
-  "services": "Servicios",
-  "howItWorks": "Cómo Funciona",
-  "premium": "Premium",
-  "contact": "Contacto",
-  "getStarted": "Empezar"
+  "home":"Inicio",
+  "services":"Servicios",
+  "howItWorks":"Cómo Funciona",
+  "premium":"Premium",
+  "contact":"Contacto",
+  "getStarted":"Empezar"
 }
   ,
     "banner": {
-    "title": "Ayuda de emergencia instantánea al alcance de tu mano",
-    "description": "Brindamos profesionales verificados las 24 horas para plomería, electricidad, limpieza, cuidado de mascotas y otras emergencias. Seguro, rápido y confiable.",
-    "button": "Descargar App",
+    "title":"Ayuda de emergencia instantánea al alcance de tu mano",
+    "description":"Brindamos profesionales verificados las 24 horas para plomería, electricidad, limpieza, cuidado de mascotas y otras emergencias. Seguro, rápido y confiable.",
+    "button":"Descargar App",
     "stats": {
-      "user": "Usuario",
-      "provider": "Proveedor",
-      "services": "Servicios"
+      "user":"Usuario",
+      "provider":"Proveedor",
+      "services":"Servicios"
+    }
+  },
+  "servicesSection": {
+  "title": "Servicios de Emergencia que Ofrecemos",
+  "list": {
+    "plumbing": {
+      "title": "Fontanería",
+      "desc": "Reparación de tuberías, instalaciones, desagües"
+    },
+    "electrical": {
+      "title": "Eléctrico",
+      "desc": "Cableado, accesorios, actualización de paneles"
+    },
+    "carpentry": {
+      "title": "Carpintería",
+      "desc": "Fabricación y reparación de muebles, pisos"
+    },
+    "petcare": {
+      "title": "Cuidado de Mascotas",
+      "desc": "Esterilización, desparasitación, vacunación"
+    },
+    "cleaning": {
+      "title": "Limpieza",
+      "desc": "Hogar, oficina, especializado en hoteles"
+    },
+    "pestcontrol": {
+      "title": "Control de Plagas",
+      "desc": "Insectos, roedores, prevención"
+    },
+    "locksmith": {
+      "title": "Cerrajero",
+      "desc": "Cerraduras, llaves, sistemas de seguridad"
+    },
+    "hvac": {
+      "title": "HVAC",
+      "desc": "Calefacción, refrigeración, ventilación"
     }
   }
+},
+"premiumTitle": "Membresías Flexibles",
+  "premiumDescription": "Desbloquea más solicitudes de trabajo, mayor visibilidad y soporte prioritario con nuestros planes premium.",
+  "plans": {
+    "free": {
+      "name": "Gratis",
+      "price": "$ 0/mes",
+      "features": [
+        "Acceso básico a trabajos",
+        "Soporte estándar"
+      ],
+      "btnText": "Seleccionar Gratis"
+    },
+    "silver": {
+      "name": "Plata",
+      "price": "$ 99/15 Días",
+      "features": [
+        "Impulso de trabajos",
+        "Acceso prioritario limitado",
+        "Análisis básico"
+      ],
+      "btnText": "Seleccionar Plata"
+    },
+    "platinum": {
+      "name": "Platino",
+      "price": "$ 299/30 Días",
+      "features": [
+        "Soporte premium",
+        "Listado destacado",
+        "Gerente de cuenta dedicado"
+      ],
+      "btnText": "Seleccionar Platino"
+    },
+    "gold": {
+      "name": "Oro",
+      "price": "$ 499/1 Año",
+      "features": [
+        "Ranking superior en búsqueda",
+        "Solicitudes ilimitadas de trabajo",
+        "Análisis avanzados"
+      ],
+      "btnText": "Seleccionar Oro"
+    }
+  }
+
   
   }
