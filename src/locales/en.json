@@ -109,6 +109,13 @@
   "hours": "Everyday from 10 am to 8 pm",
   "copyright": "© 2023 — Copyright by",
   "author": "@iamhervewabo"
+},
+"emergency":{
+  "title":"Emergency Help. Anytime. Anywhere.",
+    "description": "Download our app to access emergency services with a single tap. Available on Android and iOS",
+    "button": "App Store",
+     "button2": "Google Play"
+
 }
 
   
