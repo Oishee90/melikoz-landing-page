@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-
+import { GiCheckMark } from "react-icons/gi";
 const MembershipPlans = () => {
   const { t } = useTranslation();
 
@@ -28,7 +28,7 @@ const MembershipPlans = () => {
   ];
 
   return (
-    <div className="px-4 py-16 text-center">
+    <div className="container px-4 py-16 mx-auto text-center">
       <h2 className="mb-2 text-3xl font-bold">{t("premiumTitle")}</h2>
       <p className="mb-10 text-gray-600">{t("premiumDescription")}</p>
 
@@ -47,7 +47,10 @@ const MembershipPlans = () => {
                 <ul className="mb-6 space-y-1 text-left">
                   {planData.features.map((feature, i) => (
                     <li key={i} className="flex items-center">
-                      <span className="mr-2 text-green-600">✔</span> {feature}
+                      <span className="mr-2 text-[#303030]">
+                        <GiCheckMark />
+                      </span>{" "}
+                      {feature}
                     </li>
                   ))}
                 </ul>

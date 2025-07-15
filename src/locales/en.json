@@ -3,7 +3,7 @@
    "navbar": {
     "home": "Home",
     "services": "Services",
-    "howItWorks": "How It Works",
+    "howItWorks":"How It Works",
     "premium": "Premium",
     "contact": "Contact",
     "getStarted": "Get Started"
@@ -97,6 +97,19 @@
       ],
       "btnText": "Select Gold"
     }
-  }
+  },
+  "footer": {
+  "description": "In any emergency, time matters. Our app connects you to verified help—fast. One tap, 24/7 response, and trusted professionals—because your safety shouldn’t wait.",
+  "info": "INFO",
+  "contactUs": "Contact Us",
+  "phone": "+1 1234 123456",
+  "email": "melikoz1234@gmail.com",
+  "findUs": "FIND US",
+  "address": "7VQQ+GH Vancouver, British Columbia, Canada",
+  "hours": "Everyday from 10 am to 8 pm",
+  "copyright": "© 2023 — Copyright by",
+  "author": "@iamhervewabo"
+}
+
   
   }

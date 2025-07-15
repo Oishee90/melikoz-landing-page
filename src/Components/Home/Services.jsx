@@ -6,7 +6,7 @@ const Services = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="max-w-6xl px-4 py-12 mx-auto">
+    <div className="container px-4 py-12 mx-auto ">
       <h2 className="mb-8 text-2xl font-semibold text-center md:text-3xl">
         {t("servicesSection.title")}
       </h2>

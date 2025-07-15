@@ -97,7 +97,20 @@
       ],
       "btnText": "Seleccionar Oro"
     }
-  }
+  },
+ "footer": {
+  "description": "En cualquier emergencia, el tiempo importa. Nuestra aplicación te conecta con ayuda verificada—rápidamente. Un toque, respuesta 24/7 y profesionales confiables—porque tu seguridad no debe esperar.",
+  "info": "INFORMACIÓN",
+  "contactUs": "Contáctanos",
+  "phone": "+1 1234 123456",
+  "email": "melikoz1234@gmail.com",
+  "findUs": "ENCUÉNTRANOS",
+  "address": "7VQQ+GH Vancouver, Columbia Británica, Canadá",
+  "hours": "Todos los días de 10 am a 8 pm",
+  "copyright": "© 2023 — Derechos reservados por",
+  "author": "@iamhervewabo"
+}
+
 
   
   }

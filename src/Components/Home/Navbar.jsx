@@ -169,10 +169,7 @@ const Navbar = () => {
 
               {/* Dropdown Menu */}
               {showDropdown && (
-                <div
-                  ref={dropdownRef}
-                  className="absolute right-0 z-50 w-32 mt-2 text-black bg-white rounded-md shadow-lg top-full"
-                >
+                <div className="absolute right-0 z-50 w-32 mt-2 text-black bg-white rounded-md shadow-lg top-full">
                   <button
                     onClick={() => {
                       console.log("Switching to English"); // 🔍 Debug log
