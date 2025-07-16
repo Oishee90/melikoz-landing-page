@@ -116,6 +116,34 @@
   "button": "App Store",
   "button2": "Google Play"
 }
+,
+"HowITWorks": {
+  "title": "Cómo Funciona",
+  "steps": [
+    "Abre la aplicación",
+    "Selecciona el tipo de emergencia",
+    "Describe la situación",
+    "La IA te conecta con proveedores verificados",
+    "Recibe ayuda de emergencia en tu ubicación",
+    "Califica y deja tu opinión sobre el servicio"
+  ]
+},"testimonials": {
+    "title": "Lo Que Dicen Nuestros Usuarios",
+    "users": [
+      {
+        "text": "Reservé un plomero a través de la aplicación a las 10:00 AM, y llegó a las 10:30. Fue educado, tenía las herramientas adecuadas y resolvió el problema rápidamente. Sin líos, sin molestias.",
+        "name": "Hasan, Toronto (Ontario)"
+      },
+      {
+        "text": "Mi gato se enfermó tarde en la noche. Usé la aplicación Emergency Hero y un veterinario certificado llegó en 30 minutos. El servicio fue profesional, amable y cuidadoso. ¡Altamente recomendado para cualquier dueño de mascota!",
+        "name": "Mobin, Winnipeg (Manitoba)"
+      },
+      {
+        "text": "Reservé un servicio de limpieza profunda para mi departamento de 2 habitaciones. Los limpiadores llegaron a tiempo, usaron mascarillas y guantes, y limpiaron cada rincón. ¡Súper profesional!",
+        "name": "Nur, Montreal (Quebec)"
+      }
+    ]
+  }
 
 
 

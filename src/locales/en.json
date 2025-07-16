@@ -116,7 +116,38 @@
     "button": "App Store",
      "button2": "Google Play"
 
+},
+"HowITWorks": {
+  "title": "How It Works",
+  "steps": [
+    "Open the App",
+    "Select the Emergency Type",
+    "Describe the Situation",
+    "AI Matches You With Verified Providers",
+    "Get Emergency Support at Your Location",
+    "Rate & Review the Service"
+  ]
 }
+,
+
+  "testimonials": {
+    "title": "What Our Users Say",
+    "users": [
+      {
+        "text": "I booked a plumber through the app at 10:00 AM, and he arrived by 10:30. He was polite, had proper tools, and solved the issue quickly. No mess, no hassle.",
+        "name": "Hasan, Toronto (Ontario)"
+      },
+      {
+        "text": "My cat fell sick late at night. I used the Emergency Hero app and a certified vet came within 30 minutes. The service was professional, gentle, and caring. Highly recommended for any pet owner!",
+        "name": "Mobin, Winnipeg (Manitoba)"
+      },
+      {
+        "text": "I booked a deep cleaning service for my 2-bedroom flat. The cleaners arrived on time, wore masks and gloves, and cleaned every corner. Super professional!",
+        "name": "Nur, Montreal (Quebec)"
+      }
+    ]
+  }
+
 
   
   }

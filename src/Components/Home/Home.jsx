@@ -6,6 +6,8 @@ import Footer from "./Footer";
 import Services from "./Services";
 import MembershipPlans from "./MembershipPlans";
 import Emergency from "./Emergency";
+import HowItWorks from "./HowItWorks";
+import Testimonials from "../Testimonials";
 
 const Home = () => {
   return (
@@ -14,8 +16,11 @@ const Home = () => {
         <Navbar></Navbar>
       </div>
       <Banner></Banner>
+
       <Services></Services>
+      <HowItWorks></HowItWorks>
       <MembershipPlans></MembershipPlans>
+      <Testimonials></Testimonials>
       <Emergency></Emergency>
       <Footer></Footer>
     </div>

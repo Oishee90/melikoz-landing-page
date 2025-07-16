@@ -4,10 +4,10 @@ import { useTranslation } from "react-i18next";
 const Emergency = () => {
   const { t, i18n } = useTranslation();
   return (
-    <div id="home" className="container p-4 pb-32 mx-auto mt-28">
-      <div className="flex flex-col-reverse items-center justify-between gap-10 lg:flex-row lg:items-center">
+    <div id="home" className="container p-4 pb-32 mx-auto mt-20">
+      <div className="container flex flex-col-reverse items-center justify-between gap-10 mx-auto md:flex-row">
         {/* content */}
-        <div className="flex flex-col items-center w-full gap-4 text-white lg:items-start ">
+        <div className="flex flex-col items-center w-full gap-4 text-white md:w-1/2 lg:items-start ">
           <h1 className="dm-sans text-4xl lg:text-5xl main-color font-extrabold leading-[130%]">
             {t("emergency.title")}
           </h1>
@@ -32,8 +32,8 @@ const Emergency = () => {
         </div>
 
         {/* image */}
-        <div className="w-full">
-          <img src={img} alt="banner" />
+        <div className="flex items-center justify-center w-full md:w-1/2">
+          <img src={img} alt="how it works" />
         </div>
       </div>
     </div>
