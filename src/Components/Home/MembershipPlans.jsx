@@ -28,9 +28,11 @@ const MembershipPlans = () => {
   ];
 
   return (
-    <div className="container px-4 py-16 mx-auto text-center">
-      <h2 className="mb-2 text-3xl font-bold">{t("premiumTitle")}</h2>
-      <p className="mb-10 text-gray-600">{t("premiumDescription")}</p>
+    <div className="container px-4 py-16 mx-auto text-center roboto ">
+      <h2 className="mb-6 text-2xl  text-center md:text-3xl text-[#000000] roboto font-bold">
+        {t("premiumTitle")}
+      </h2>
+      <p className="mb-10 text-[#303030] text-xl">{t("premiumDescription")}</p>
 
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
         {plans.map((plan, index) => {

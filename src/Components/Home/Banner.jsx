@@ -24,7 +24,7 @@ const Banner = () => {
             </button>
           </div>
 
-          <div className="flex items-center gap-6 mt-3">
+          <div className="flex items-center mt-3 gap-9">
             {/* user */}
             <div className="text-2xl font-bold roboto text-[#303030] flex items-start flex-col">
               <h1>1000+</h1>

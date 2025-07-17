@@ -7,7 +7,7 @@ const HowItWorks = () => {
 
   return (
     <div id="home" className="container p-4 pb-20 mx-auto mt-20 roboto">
-      <h3 className="mb-20 text-3xl font-bold text-[#303030] text-center">
+      <h3 className="mb-16 text-2xl  text-center md:text-3xl text-[#000000] roboto font-bold">
         {t("HowITWorks.title")}
       </h3>
 
@@ -16,7 +16,9 @@ const HowItWorks = () => {
         <div className="flex flex-col items-center w-full gap-4 text-white md:w-1/2 lg:items-start">
           <ul className="space-y-2 text-black list-disc list-inside dark:text-white">
             {steps.map((step, index) => (
-              <li key={index}>{step}</li>
+              <li key={index} className="text-xl font-medium roboto">
+                {step}
+              </li>
             ))}
           </ul>
         </div>
