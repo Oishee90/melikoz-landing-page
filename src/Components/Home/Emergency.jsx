@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 const Emergency = () => {
   const { t, i18n } = useTranslation();
   return (
-    <div id="home" className="container p-4 pb-32 mx-auto mt-20">
+    <div id="contact" className="container p-4 pb-32 mx-auto mt-20">
       <div className="container flex flex-col-reverse items-center justify-between gap-10 mx-auto md:flex-row">
         {/* content */}
         <div className="flex flex-col items-center w-full gap-4 text-white md:w-1/2 lg:items-start ">
@@ -19,14 +19,22 @@ const Emergency = () => {
           {/* button */}
           <div className="flex items-center gap-4">
             <div className="bg-[#0097EE] px-6 py-3 rounded-xl">
-              <button className="text-lg font-bold text-[#FFFFFF]">
-                {t("emergency.button")}
-              </button>
+              <a href="https://www.apple.com/app-store/" target="_blank">
+                {" "}
+                <button className="text-lg font-bold text-[#FFFFFF]">
+                  {t("emergency.button")}
+                </button>
+              </a>{" "}
             </div>
             <div className="bg-[#0097EE] px-6 py-3 rounded-xl">
-              <button className="text-lg font-bold text-[#FFFFFF]">
-                {t("emergency.button2")}
-              </button>
+              <a
+                href="https://play.google.com/store/games?hl=en&pli=1"
+                target="_blank"
+              >
+                <button className="text-lg font-bold text-[#FFFFFF]">
+                  {t("emergency.button2")}
+                </button>
+              </a>
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ const HowItWorks = () => {
   const steps = t("HowITWorks.steps", { returnObjects: true });
 
   return (
-    <div id="home" className="container p-4 pb-20 mx-auto mt-20 roboto">
+    <div id="howItWorks" className="container p-4 pb-20 mx-auto mt-20 roboto">
       <h3 className="mb-16 text-2xl  text-center md:text-3xl text-[#000000] roboto font-bold">
         {t("HowITWorks.title")}
       </h3>

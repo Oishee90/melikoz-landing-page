@@ -28,13 +28,16 @@ const MembershipPlans = () => {
   ];
 
   return (
-    <div className="container px-4 py-16 mx-auto text-center roboto">
+    <div
+      id="premium"
+      className="container px-4 py-16 mx-auto text-center roboto"
+    >
       <h2 className="mb-6 text-2xl md:text-3xl text-[#000000] font-bold">
         {t("premiumTitle")}
       </h2>
       <p className="mb-10 text-[#303030] text-xl">{t("premiumDescription")}</p>
 
-      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 h-96">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 md:h-96">
         {plans.map((plan, index) => {
           const planData = t(`plans.${plan.key}`, { returnObjects: true });
 

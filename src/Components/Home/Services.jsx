@@ -7,7 +7,7 @@ const Services = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="bg-[#F3F0F0]">
+    <div className="bg-[#F3F0F0]" id="services">
       <div className="container px-4 py-12 mx-auto ">
         <h2 className="mb-16 text-2xl  text-center md:text-3xl text-[#000000] roboto font-bold">
           {t("servicesSection.title")}
